@@ -58,9 +58,7 @@ const SignInForm = () => {
           "Content-Type": "multipart/form-data",
           Accept: "application/json",
           // Authorization: apiKey,
-          "x-api-key": "pk_test_0223273f8e555947aee95c5cfe744a6760030ed4",
         },
-        withCredentials: true,
       });
   
       if (response?.data?.responseMessage) {
